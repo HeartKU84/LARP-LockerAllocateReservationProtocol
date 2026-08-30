@@ -219,7 +219,7 @@ def handle_reserve(parts, headers):
                 f"Locker-ID: {locker_id}"
             )
 
-    return "LARP/1.0 409 LOCKER OCCUPIED"
+        return "LARP/1.0 409 LOCKER OCCUPIED"
 
     # AVAILABLE -> RESERVED
     locker["status"] = "RESERVED"

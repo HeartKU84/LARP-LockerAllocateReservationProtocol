@@ -167,6 +167,11 @@ def main():
 
                 request = "QUIT LARP/1.0"
 
+            # TEST INVALID COMMAND
+            elif choice == "67":
+
+                 request = "HELLO L01 LARP/1.0"
+                 
             else:
 
                 print("Invalid selection.")
@@ -190,7 +195,7 @@ def main():
 
             print("\n--------- CLIENT RECEIVED ---------")
             print(response)
-            print("-------------------------------------\n")
+            print("-----------------------------------\n")
 
             if choice == "5":
                 break
